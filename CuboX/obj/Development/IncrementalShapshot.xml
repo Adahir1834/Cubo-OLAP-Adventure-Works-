@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CuboX</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>HWOqaIJzckZq7AN67W8pOqVY7Kw=11/11/2023 04:49:34 p. m.11/11/2023 04:49:34 p. m.</TimeStamp>
+        <ID>
+          <String>cn_ADW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>CWJt60Yuubns7TwH2aslGt26ErQ=12/11/2023 03:27:07 p. m.11/11/2023 04:54:51 p. m.</TimeStamp>
+        <ID>
+          <String>vw_ADW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>abVC3uvLmA7t5aabeB3OG026hck=12/11/2023 03:41:11 p. m.11/11/2023 05:13:16 p. m.</TimeStamp>
+        <ID>
+          <String>Periodos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6ACdms/KIXMWU3MtK67Etc4k5YU=12/11/2023 02:12:18 p. m.11/11/2023 05:20:54 p. m.</TimeStamp>
+        <ID>
+          <String>Clientes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XkgGiWXbiZArRfjVh81f85P+LHM=12/11/2023 02:40:43 p. m.11/11/2023 05:20:54 p. m.</TimeStamp>
+        <ID>
+          <String>Productos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5663yTyicA0J0is4qGMbT+UhKho=11/11/2023 05:20:54 p. m.11/11/2023 05:20:54 p. m.</TimeStamp>
+        <ID>
+          <String>Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ijbRk9ZrUrB32Ng5JSFIZlugdJI=12/11/2023 03:39:27 p. m.11/11/2023 05:20:54 p. m.qRNyCnlVpqYBby74KPGXvFvcA7M=11/11/2023 05:20:54 p. m.11/11/2023 05:20:54 p. m.</TimeStamp>
+        <ID>
+          <String>Cubo_ADW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>fTnmximseKXH9PAteM+ZAfCWi+A=11/11/2023 04:40:48 p. m.11/11/2023 04:40:47 p. m.</TimeStamp>
+      <ID>
+        <String>CuboX</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-11-12T21:41:55.573333Z</LastDeployed>
+</DeploymentSnapshot>
